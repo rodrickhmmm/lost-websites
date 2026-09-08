@@ -1,0 +1,145 @@
+/* fade text animation */
+.fade-in-text {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+
+ /* fade image animation */
+.fade-in-image {
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+
+ /* logo big animation */
+.animation {
+  animation-duration: 1s;
+  animation-name: animation;
+}
+
+@keyframes animation{
+  from {
+    margin-top: 100%;
+    opacity: 0%;
+  }
+
+  to {
+    margin-top: 0%;
+    opacity: 100%;
+  }
+}
+
+
+
+ /* left animation */
+ .animationleft {
+    animation-duration: 2s;
+    animation-name: animationleft;
+  }
+  
+  @keyframes animationleft{
+    from {
+      margin-left: -10%;
+      opacity: 0%;
+    }
+  
+    to {
+      margin-left: 0%;
+      opacity: 100%;
+    }
+  }
+
+
+   /* top animation */
+ .animationtop {
+    animation-duration: 2s;
+    animation-name: animationtop;
+  }
+  
+  @keyframes animationtop{
+    from {
+      margin-top: -30%;
+      opacity: 0%;
+    }
+  
+    to {
+      margin-top: 0%;
+      opacity: 100%;
+    }
+  }
+
+  .animationlol {
+    animation-duration: 4s;
+    animation-name: animation;
+  }
+  
+  @keyframes animation{
+    from {
+      margin-top: -5%;
+      opacity: 0%;
+    }
+  
+    to {
+      margin-top: 0%;
+      opacity: 100%;
+    }
+  }

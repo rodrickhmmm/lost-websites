@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+	scroll-behavior: smooth;
+}
+
+/* začátek banner */
+
+.hero-image {
+  background-image: radial-gradient(circle, rgba(118,202,244,0) 0%, rgb(21, 24, 29) 70%), url("backgounrd.png");
+  height: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  color:#5dabff; 
+  font-size: 85px; 
+  font-family: Hanken Grotesk; 
+  text-shadow: #00000058 4px 4px 9px;
+  text-align: center;
+  position: absolute;
+  top: 35%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  transition: all 1s;
+}
+
+.textherosmall{
+  display: inline-block;
+  font-family: Poppins;
+  color: #bdbdbd;
+  font-size:30px;
+  font-weight: 500;
+  position: absolute;
+  white-space: nowrap;
+  top: 90%;
+  left: 0%;
+  transition: all .5s ease-in-out;
+}
+
+.textherosmalllol:hover{
+  color: #0071e3;
+  cursor: pointer; 
+}
+
+.textherosmalllol{
+  cursor: pointer; 
+  transition: all .5s ease-in-out;
+}
+
+@media only screen and (max-width: 930px) {
+  .hero-text {
+    left: 50%;
+  }
+
+  .textherosmall{
+    top: 90%;
+    left: 0%;
+    font-size: 20%;
+  }
+
+  .mcpostava{
+    visibility: hidden;
+  }
+}
+
+/* konec banner */
+
+/* začátek scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  transition: all 5s ease-in-out;
+}
+
+::-webkit-scrollbar-track {
+  background-color:rgba(41, 47, 55, 0.519); 
+  border-radius: 10px;
+  transition: all 5s ease-in-out;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: rgb(0, 106, 255); 
+  border-radius: 10px;
+  transition: all 5s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #005fb3; 
+  transition: all 5s ease-in-out;
+}
+/* konec scrollbar */
+
+/* mcpostava */
+.mcpostava{
+  display: none;
+  width: 20%;
+  height: 20%;
+  margin-left: 65%;
+  background: linear-gradient(39deg, rgba(47,75,89,0.67) 0%, rgba(30,46,73,0.67) 100%);
+  border-radius: 30px;
+  box-shadow: 1px 1px 10px #000000;
+}
+/* konec mcpostava */
+
+/* back to top button */
+#myBtn {
+  font-family: Poppins;
+  font-weight: 600;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  box-shadow: 1px 2px 10px #000000;
+  background-color: rgb(0, 94, 255);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+/* konec back to top button */
+
+#myDiv5{
+  color: white;
+  left: 13%;
+  top: 10%;
+  position: absolute;
+  font-family: mulish;
+  font-weight: 600;
+  display: none;
+  text-align: right;
+  background: linear-gradient(39deg, rgba(30, 46, 73, 0.67) 0%, rgba(47, 75, 89, 0.67) 69%);
+  border-radius: 30px;
+  box-shadow: 1px 1px 10px #000000;
+  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+/* desktop screen */
+@media screen and (min-width: 601px) {
+  #myDiv5 {
+    font-size: 2.1vw;
+  }
+
+.grafika{
+  margin-top: 0%;
+}
+}
+
+/* mobil screen */
+@media screen and (max-width: 600px) {
+  #myDiv5 {
+    font-size: 160%;
+    text-align: center;
+    left: 0%;
+    top: 0%;
+  }
+
+  .grafika{
+    margin-top:8.5cm;
+
+  }
+}
+
+.grafika{
+  font-family: mulish;
+  color:white;
+  background-color: #39537831;
+  font-family: mulish;
+  font-weight: 600;
+  display: none;
+}
+
+.grafikanadtext{
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  padding: 20px;
+}
+
+.footer{
+  background-color: #252e36;
+}
+
+.footertext{
+  font-weight: 600;
+  padding: 35px;
+  color: rgb(194, 194, 194);
+  font-size: 30px;
+  display: block;
+  font-family: Montserrat;
+  position:static;
+  margin-left: 15%;
+  text-shadow: #00000062 1px 1px 10px;
+}
+
+
+
+
+
+
+/* soci. site */
+.main{
+  margin-left: 40%;
+  margin-top: -4.3%;
+  display: flex;
+  justify-content: center;
+}
+.icon{
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  background: #94ccf1;
+  margin: 20px;
+  text-align: center;
+  font-size: 30px;
+  line-height: 50px;
+  font-family: sans-serif;
+  overflow: hidden;
+  box-shadow: 5px 10px 20px rgb(28, 32, 44);
+  transition: all .3s ease-out;
+}
+.icon:hover{
+  width: 200px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #eeeeee;
+}
+.icon:hover i{
+  color: #ffffff;
+}
+.icon .fa-instagram{
+  color: #000000;
+}
+.ig:hover{
+  background: #d466f6;
+}
+
+.icon .fa-tiktok{
+  color: #000;
+}
+.tt:hover{
+  background: #232222;
+}
+.icon .fa-youtube{
+  color: #000000;
+}
+.yt:hover{
+  background: #e75c5c;
+}
+
+@media screen and (max-width: 600px) {
+
+  .footertext{
+    text-align: center;
+  }
+
+  .main{
+    margin-left: 0%;
+  }
+  }
+
+  @media screen and (max-width: 601px) {
+
+    .footertext{
+      
+    }
+    }

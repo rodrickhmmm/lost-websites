@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../NNN"
+		},
+		{
+			"path": "../html"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "mujweb"
+	}
+}

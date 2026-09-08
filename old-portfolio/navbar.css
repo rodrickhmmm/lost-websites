@@ -1,0 +1,54 @@
+.navbar{
+    padding: 20px;
+    background-color: #15151d;
+    position: fixed;
+    color: rgb(215, 215, 215);
+    font-family: Poppins;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    top: 0px;
+    z-index: 99;
+    box-shadow: 1px 5px 10px #000000a5;
+    transition: all .5s;
+   }
+  
+   .bigtextnav{
+    color:#5dabff; 
+    font-size: 50px; 
+    font-family: Hanken Grotesk; 
+    text-shadow: #00000058 4px 4px 9px;
+   }
+  
+   .navlink{
+    margin-top: .5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    position: relative;
+    color: #aaaaaa;
+    font-family: Poppins;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+   }
+  
+   .navlink:link {
+    color: #aaaaaa;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+   .navlink:visited {
+    color: #aaaaaa;
+  }
+  
+   .navlink:hover {
+    color: #4984f3;
+    background-color: transparent;
+  }
+  
+   .navlink:active {
+    color: #4984f3;
+    background-color: transparent;
+  }

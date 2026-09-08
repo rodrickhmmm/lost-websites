@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css?v=1.1">  
+    <link rel="stylesheet" href="intro.css?v=1.1">  
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    <title>Rodrick__ - Front-end dev.</title>
+</head>
+<body onload="myFunction()" style="margin:0;">      
+
+   <!-- koule intro  -->       
+  <div class="wrapper" id="wrapper">
+    <span class="circle circle-1"></span>
+    <span class="circle circle-2"></span>
+    <span class="circle circle-3"></span>
+    <span class="circle circle-4"></span>
+    <span class="circle circle-5"></span>
+    <span class="circle circle-6"></span>
+    <span class="circle circle-7"></span>
+    <span class="circle circle-8"></span>
+  </div>
+
+           <!--navbar -->       
+        <div style="display:none;color: white;font-size:30px;" id="myDiv" class="animate-bottom">
+          <div class="navbar">
+            <a class="bigtextnav"> Rodrick__ </a><br>
+            <div class="navlink"> 
+              <a href="index.html" class="navlink">domů</a>
+              <a href="maprace.html" class="navlink" style="color: white; background: linear-gradient(to top left, #1C00CF 0%, #0075CF 72%); border-radius: 7px;" >má práce</a>
+              <a href="kontakt.html" class="navlink">kontakt</a>
+              <a href="aboutme.html" class="navlink">o mně</a>
+              <br>
+            </div>
+          </div>
+        </div>
+        
+
+
+        <script>
+        var myVar;
+        
+        function myFunction() {
+          myVar = setTimeout(showPage, 3000);
+        }
+        
+        function showPage() {
+          document.getElementById("wrapper").style.display = "none";
+          document.getElementById("myDiv").style.display = "block";
+        }
+        </script>
+</body>
+</html>
